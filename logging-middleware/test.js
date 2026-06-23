@@ -7,6 +7,7 @@ async function test() {
         "utils",
         "testing logger from node"
     );
+    
 
     console.log("Test completed");
 }

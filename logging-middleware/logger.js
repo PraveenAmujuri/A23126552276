@@ -1,4 +1,7 @@
+require("dotenv").config();
+
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+console.log("TOKEN:", ACCESS_TOKEN);
 
 async function Log(stack, level, packageName, message) {
     const bodyData = {
